@@ -1,0 +1,1627 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'en' Physical Memory: 16242 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Ps25LWall/Desktop/BPA/BPA/Tower defense map
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64981
+Successfully changed project path to: C:/Users/Ps25LWall/Desktop/BPA/BPA/Tower defense map
+C:/Users/Ps25LWall/Desktop/BPA/BPA/Tower defense map
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17372] Host "[IP] 10.128.34.33 [Port] 0 [Flags] 2 [Guid] 2128801142 [EditorId] 2128801142 [Version] 1048832 [Id] WindowsEditor(7,E2006PC44245) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17372] Host "[IP] 10.128.34.33 [Port] 0 [Flags] 2 [Guid] 2128801142 [EditorId] 2128801142 [Version] 1048832 [Id] WindowsEditor(7,E2006PC44245) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 20.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ps25LWall/Desktop/BPA/BPA/Tower defense map/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 550 (ID=0x699f)
+    Vendor:   ATI
+    VRAM:     4042 MB
+    Driver:   24.20.11020.3002
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009923 seconds.
+- Loaded All Assemblies, in  0.605 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.379 seconds
+Domain Reload Profiling: 982ms
+	BeginReloadAssembly (264ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (188ms)
+		LoadAssemblies (239ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (184ms)
+				TypeCache.ScanAssembly (162ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (380ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (282ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (180ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ps25LWall\Desktop\BPA\BPA\Tower defense map\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ps25LWall\Desktop\BPA\BPA\Tower defense map\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.042 seconds
+Refreshing native plugins compatible for Editor in 5.28 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.063 seconds
+Domain Reload Profiling: 2100ms
+	BeginReloadAssembly (235ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (676ms)
+		LoadAssemblies (520ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (293ms)
+			TypeCache.Refresh (249ms)
+				TypeCache.ScanAssembly (224ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1064ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (824ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (157ms)
+			ProcessInitializeOnLoadAttributes (535ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 5.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4920 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 74 unused Assets / (0.8 MB). Loaded Objects now: 5379.
+Memory consumption went from 205.4 MB to 204.7 MB.
+Total: 6.204000 ms (FindLiveObjects: 0.463800 ms CreateObjectMapping: 0.501400 ms MarkObjects: 4.718900 ms  DeleteObjects: 0.518700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1566.589704 seconds.
+  path: Assets/Turret.cs
+  artifactKey: Guid(43c548ace60165241aeb4ab3e7d8ee6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turret.cs using Guid(43c548ace60165241aeb4ab3e7d8ee6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f04d2c67f547801fb4020b909ef8664') in 0.002433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ps25LWall\Desktop\BPA\BPA\Tower defense map\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ps25LWall\Desktop\BPA\BPA\Tower defense map\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.579 seconds
+Refreshing native plugins compatible for Editor in 3.84 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.455 seconds
+Domain Reload Profiling: 2032ms
+	BeginReloadAssembly (183ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (308ms)
+		LoadAssemblies (363ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (50ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1456ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (695ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (196ms)
+			ProcessInitializeOnLoadAttributes (373ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (40ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 5.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4758 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (0.7 MB). Loaded Objects now: 5383.
+Memory consumption went from 177.1 MB to 176.4 MB.
+Total: 6.380100 ms (FindLiveObjects: 0.759700 ms CreateObjectMapping: 0.468900 ms MarkObjects: 4.634700 ms  DeleteObjects: 0.514900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ps25LWall\Desktop\BPA\BPA\Tower defense map\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ps25LWall\Desktop\BPA\BPA\Tower defense map\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.589 seconds
+Refreshing native plugins compatible for Editor in 3.72 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.386 seconds
+Domain Reload Profiling: 1972ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (327ms)
+		LoadAssemblies (397ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1387ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (543ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (148ms)
+			ProcessInitializeOnLoadAttributes (287ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 4.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4758 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (0.7 MB). Loaded Objects now: 5387.
+Memory consumption went from 177.2 MB to 176.4 MB.
+Total: 4.837100 ms (FindLiveObjects: 0.596800 ms CreateObjectMapping: 0.540800 ms MarkObjects: 3.118400 ms  DeleteObjects: 0.579700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ps25LWall\Desktop\BPA\BPA\Tower defense map\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ps25LWall\Desktop\BPA\BPA\Tower defense map\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.604 seconds
+Refreshing native plugins compatible for Editor in 6.11 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.294 seconds
+Domain Reload Profiling: 1896ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (321ms)
+		LoadAssemblies (368ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (54ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1295ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (511ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (272ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 4.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4758 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (0.7 MB). Loaded Objects now: 5391.
+Memory consumption went from 177.2 MB to 176.4 MB.
+Total: 4.744400 ms (FindLiveObjects: 0.987300 ms CreateObjectMapping: 0.500600 ms MarkObjects: 2.883900 ms  DeleteObjects: 0.371500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ps25LWall\Desktop\BPA\BPA\Tower defense map\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ps25LWall\Desktop\BPA\BPA\Tower defense map\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.600 seconds
+Refreshing native plugins compatible for Editor in 3.70 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.545 seconds
+Domain Reload Profiling: 2141ms
+	BeginReloadAssembly (196ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (299ms)
+		LoadAssemblies (392ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1547ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (650ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (382ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 4.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4758 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (0.7 MB). Loaded Objects now: 5395.
+Memory consumption went from 177.2 MB to 176.4 MB.
+Total: 5.146000 ms (FindLiveObjects: 0.419000 ms CreateObjectMapping: 0.537800 ms MarkObjects: 3.739300 ms  DeleteObjects: 0.448900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ps25LWall\Desktop\BPA\BPA\Tower defense map\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ps25LWall\Desktop\BPA\BPA\Tower defense map\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.615 seconds
+Refreshing native plugins compatible for Editor in 5.44 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.303 seconds
+Domain Reload Profiling: 1914ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (309ms)
+		LoadAssemblies (387ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (46ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1303ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (527ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (285ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 6.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4758 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (0.7 MB). Loaded Objects now: 5399.
+Memory consumption went from 177.2 MB to 176.4 MB.
+Total: 3.668300 ms (FindLiveObjects: 0.393800 ms CreateObjectMapping: 0.376400 ms MarkObjects: 2.428600 ms  DeleteObjects: 0.468500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1012.550932 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9af3aa6c8cbabe2dc2d4add270974e') in 0.019403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 41.827494 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf31cdcce46cc9359bdd0ab646d2a40') in 0.003184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 12.161921 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1715a3c158f47712d96faa0633befce8') in 0.002714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 5.848551 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa0d861b4afe4574037cc36a6a31ab0') in 0.002476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 20.463713 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a16da8bb64c83a8e43d54d9a4c884fd') in 0.002773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 11.321273 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d7e043211b7fae3a9312324562490c') in 0.002838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 5.424485 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ca2d7bdeec7ef2491a55ea721cef41') in 0.002540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 9.069132 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cdee5d84c8c4053ee7c6f395037f40d') in 0.002315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 10.962231 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4a7de9bdef0638b852611dd574c145') in 0.002446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.992074 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd696130b8e7696a83b72a121496ffbf3') in 0.002187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 10.734367 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd054b4976710d7d6929d794e5b0303f') in 0.002730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 12.543006 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e2a8410e6f5f5986b8f6c1655ecbcb') in 0.002648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 7.275981 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34eb9b67d4c67a6cedfe88b03f2ef4a8') in 0.002139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 30.277758 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c323c340a8f8f3b6503339961336cce') in 0.002500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 25.284189 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7a5ddb8000e3a8133f98701e900283') in 0.002711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 18.770544 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd96dab95e265bbfb336aaccc0e0ba2e') in 0.002341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 7.855685 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2b64ab7ea80726cf2adf421ef9762f') in 0.002178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 10.524513 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de4bd151687fad5e297c87c724a872f') in 0.002571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 8.064550 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871b8488cce09b7ac6396564760cb33f') in 0.002564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 8.478713 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f291d05326adee53ecfde967d264d1ce') in 0.002302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.790632 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5cfda73cb182c54d3c230a461389461') in 0.003141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 8.318819 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15af27bf899f7b6bd843ddae21c4004') in 0.002594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 6.114005 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b6460b1c6800f01d029a0f5f7e159b') in 0.002237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 14.640450 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce25ad41f18041e39f61f02b84db940') in 0.002171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 12.587885 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c2cc9041993dc6114da3676b6b56a6') in 0.002326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 28.055365 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe002a8b9caf82ed9ca82e4a7a17779') in 0.002520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.957747 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891c5d28ee436f98394b21698303edd9') in 0.002818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.054572 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f4e86669c926eb6bce057edf097248') in 0.002718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.802907 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73801a50ee3dda65fc51c7f79448c5f') in 0.002580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.776807 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b8eb6bc00b90e75e4cd63887ae8c0e') in 0.001859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.216027 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da33cacb205020002e1511e032975918') in 0.002120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.206208 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8523c2925c15c8df3d164fae6fcb30') in 0.002047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.670300 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77da101c697fd07d97fc0b04618690fd') in 0.002364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.170667 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da604ffdea45e8c36ff62185a8c3fec') in 0.001875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.612098 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dbe50eebcf42b84b9016bf9faa7d6e5') in 0.002801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 1.023577 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fe6b0fdec96e61286ca0b2182152e8') in 0.002089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 4.940765 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5120636032b9d58a0b044c9a70723244') in 0.002864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 1.582667 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63835a739a82f0b6a8f8aab2b2df696c') in 0.002186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 4.036872 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c467e1f60da46142b3505ae8173b923f') in 0.001869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 1.428792 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c797103e0841fa7e5a4065a31a8592') in 0.002094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 6.277461 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b92474b46506da2751011cfef881c5d') in 0.002101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 10.338204 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb1ce86a301dd25ca51a5f5258dd216') in 0.002213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 8.498922 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd84888a6ae07e0bcab00a1fbca5c03') in 0.002118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 4.457029 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf3bb89a735106f1a3bca7e805520b2') in 0.002388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 9.728260 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc961e61a78ba2d27bbf947d866ea52') in 0.002629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 10.934162 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20c0bc426793037a741a46ef7432e7f') in 0.002240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 11.490840 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f9ed043e791b716570f31619a511a7') in 0.002471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 6.053977 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2684b330591aceb9b6cc1124d7bca80') in 0.002609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 21.418880 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112d5322a01a3a87ff59cb1b3c513c41') in 0.002396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.607597 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f5d6cd6249a90c5d8edde5f8366912') in 0.002405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 10.974756 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9c8b491dd6a1701583cf4cb4be5ca4') in 0.002720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 9.705201 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b039268ead21803cbdf49e4f1620e1e7') in 0.002394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 9.285310 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527c44242fc9b22263e201cad4535131') in 0.002463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 10.491902 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c29dd58ea2834de0481e41fe4af318') in 0.002854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 13.539713 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edcc46d12a0e629fef01f92b0d007691') in 0.002922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 2.794171 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93710f3587e373d28d4da46b7a0f4254') in 0.002782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 12.527221 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b5d001dc6b388b0c89f30dededc718') in 0.002881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 5.261073 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9d5922009223ef6fb2423bbaef644d') in 0.001764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 16.161391 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47827170d64d0b750b2b224f5e49123c') in 0.002243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 11.498042 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e7f47950af8d57fc4f3c38f381ddd3') in 0.002250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 2.939884 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ba026ea165e3d57c01afd321c0aebf') in 0.001866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 5.811381 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a4d6bdf84d4059f520c3eeb4dec298') in 0.002084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 9.706936 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4726e8938cb9fdacf8f451b5113f563e') in 0.002398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 20.709494 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ecf6aedbad17916916ca1549674a4f') in 0.003016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 16.309919 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a76114bb09998f9138c3a85b2eea79') in 0.003233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 8.104114 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e485eab413522af7198b9d03c1f6040f') in 0.002076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 9.111251 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92485e737b4f24e08f8f83feb6fcc385') in 0.002678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.977939 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f56935c5e49f65588bd6c9e01c43c8') in 0.001801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.388704 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe99d28b8a74d41cb58dee15507853d') in 0.001851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 2.610067 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3cb83664718ac89c82ec14430a893b1') in 0.002618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 5.665420 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2836707c5c2ca1aa8c64d1593766ee88') in 0.002260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.972115 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd07bac88f54bc319b98803dee08824') in 0.002069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 12.156764 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6750c4ecd36c6ebc16048ec12ca1523c') in 0.002242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 26.214573 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0421f90320ab6c04ad6cf1396f677162') in 0.002746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.186040 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c03c864464d1970cacb72a7c0cbeeb') in 0.002373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 8.446834 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4ebb274d7585ff9c8c7432cd57e3c6') in 0.003185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 6.660705 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4223d29303c4626827794b72472387f4') in 0.002479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 41.912797 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4733256424233aae1ac2b0d2c40cbb93') in 0.003217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 8.846300 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e963a4944232c279fbad96615b554b') in 0.002813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 112.550474 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c78fb7b4feaca6dff71d3defd8820c') in 0.002088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 6.037951 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2eddde36546f3fbe601dddf4919781d') in 0.002154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 8.273673 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abd63215b89252df8a55c33854ad632') in 0.002498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 5.252838 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd8b4f9ea60e54303bfb0aab74c25c52') in 0.002825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 31.294062 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4a356641d8ccd7eb045ccbdd001622') in 0.002229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 10.868682 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e2ab35394de321a7535b5c88895183') in 0.002414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 20.958526 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1413f699381a47341cfeef8d42be0b9') in 0.002274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 31.362835 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d29b11722cb77e44c9a27f0b4901c8') in 0.002755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.976715 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61fcc04ccb3f8045ac18327fdc7a24e4') in 0.002368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 2.225042 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da3a915f85af9844ef716d63b235fa3') in 0.002204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 12.705196 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1bbec10729cd5ce62c1d4c1555eafb7') in 0.003159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 5.449270 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1693612725d458fd182df6917be2519') in 0.002241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 1.999860 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa27458c5e129c8ff264974ff0466cd') in 0.002648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 6.857781 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7014c7e5f387a00666e89afdf1347e49') in 0.003236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.015453 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517ecf4e36867e198affc419473c7ea8') in 0.002433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 4.025607 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4694023933fc64001273bf12d1d59ecd') in 0.002837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 7.867353 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea328329872bc068ec2b675ca12365e') in 0.002193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 4.030482 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff04f989b57846a454f532fdceb2730') in 0.002221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 158.086050 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81ae218461227fa6712219713554786') in 0.002429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.589551 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b7601a1f282f7913be6b7acb443a66') in 0.002315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 2.395678 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09821e889819b69b666e3a956570448') in 0.002148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 8.516698 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b242586fe497c2561529c9572e0e25') in 0.002896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 1.190837 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b48454d174b316937902799f9da1ef') in 0.002421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.589275 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6152ed8486f7c09107f10da0fdb0c1') in 0.002086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.214894 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34a279be8a2e258bea34de04d02fa30') in 0.002487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 2.588624 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253671a735990de4b763ea43d8aaa9b3') in 0.002558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 13.216294 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509db140d7947a0735fa833c452d4387') in 0.002402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 6.829056 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd33b5500cfbed444f04f60b7892c256') in 0.002403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 17.586952 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b962c21402214e50a8fc8213c04f6ca0') in 0.002241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ps25LWall\Desktop\BPA\BPA\Tower defense map\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ps25LWall\Desktop\BPA\BPA\Tower defense map\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.701 seconds
+Refreshing native plugins compatible for Editor in 4.07 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.458 seconds
+Domain Reload Profiling: 2133ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (357ms)
+		LoadAssemblies (436ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1459ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (678ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (161ms)
+			ProcessInitializeOnLoadAttributes (392ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 4.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4758 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (0.7 MB). Loaded Objects now: 5404.
+Memory consumption went from 177.2 MB to 176.5 MB.
+Total: 4.847700 ms (FindLiveObjects: 0.397000 ms CreateObjectMapping: 0.567100 ms MarkObjects: 3.482200 ms  DeleteObjects: 0.400000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 105.430220 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569452d78222618ef97d8f8701b56443') in 0.014283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 4.234609 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe563ac62d2ab8953883ea947bc6b6d') in 0.002866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 2.795938 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5185f55e7d029795fda046564742c2f1') in 0.002428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.397285 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631f91895a3eed711e09be8dd09a1067') in 0.002493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.176959 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70a764b2a186af3942a74da3e977772') in 0.002403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 11.614188 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac388b814b88390303afcab6569d21d') in 0.002401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 24.358628 seconds.
+  path: Assets/enemies/defenders/New turret.prefab
+  artifactKey: Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemies/defenders/New turret.prefab using Guid(26b0193241c94614c8ee1c6ab981c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8595ea05d523e33421e45ac24e4475') in 0.002280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ps25LWall\Desktop\BPA\BPA\Tower defense map\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ps25LWall\Desktop\BPA\BPA\Tower defense map\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.669 seconds
+Refreshing native plugins compatible for Editor in 7.69 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.450 seconds
+Domain Reload Profiling: 2114ms
+	BeginReloadAssembly (197ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (361ms)
+		LoadAssemblies (404ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (62ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (46ms)
+	FinalizeReload (1451ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (644ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (377ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 5.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4758 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (0.7 MB). Loaded Objects now: 5408.
+Memory consumption went from 177.2 MB to 176.5 MB.
+Total: 5.566200 ms (FindLiveObjects: 0.684600 ms CreateObjectMapping: 0.499200 ms MarkObjects: 3.707500 ms  DeleteObjects: 0.673300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ps25LWall\Desktop\BPA\BPA\Tower defense map\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ps25LWall\Desktop\BPA\BPA\Tower defense map\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.562 seconds
+Refreshing native plugins compatible for Editor in 4.99 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.382 seconds
+Domain Reload Profiling: 1942ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (284ms)
+		LoadAssemblies (361ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1383ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (626ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (344ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 5.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4758 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (0.7 MB). Loaded Objects now: 5412.
+Memory consumption went from 177.2 MB to 176.5 MB.
+Total: 6.007500 ms (FindLiveObjects: 0.497800 ms CreateObjectMapping: 0.411400 ms MarkObjects: 4.387400 ms  DeleteObjects: 0.709200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
