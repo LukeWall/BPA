@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 4886393056773868136}
   - component: {fileID: 9134529824449960455}
   - component: {fileID: 1810272611060694033}
+  - component: {fileID: 63091799248358364}
   m_Layer: 0
   m_Name: Enemy1
-  m_TagString: Enemy
+  m_TagString: EnemyLvl1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119,7 +120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3514a9bb0bad93f499db00be6d654521, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 400
+  EnemyStats: {fileID: 0}
   wavepointIndex: 0
 --- !u!64 &1810272611060694033
 MeshCollider:
@@ -143,3 +144,16 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &63091799248358364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8139033494694689264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0fde410baa7e064db1e79be7a532ce8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level1Speed: 0

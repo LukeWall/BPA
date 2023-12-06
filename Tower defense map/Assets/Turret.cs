@@ -17,7 +17,7 @@ public class Turret : MonoBehaviour
 
     public GameObject bulletPrefab;
     public Transform firePoint;
-    public Transform firePoint2;
+    //public Transform firePoint2;
     
     
     // Start is called before the first frame update
@@ -56,15 +56,18 @@ public class Turret : MonoBehaviour
         {
             partToRotate.rotation = Quaternion.Euler(0f, 0f, 0f);
         }
-        
+
 
         //target lock on
-        Vector3 dir = target.position - transform.position;
-        Quaternion lookRotation = Quaternion.LookRotation(dir);
-        Vector3 rotation = Quaternion.Lerp(partToRotate.rotation, lookRotation, Time.deltaTime * turnSpeed).eulerAngles;
-        partToRotate.rotation = Quaternion.Euler(0f, rotation.y, 0f);
+        if (target != null)
+        {
+            Vector3 dir = target.position - transform.position;
+            Quaternion lookRotation = Quaternion.LookRotation(dir);
+            Vector3 rotation = Quaternion.Lerp(partToRotate.rotation, lookRotation, Time.deltaTime * turnSpeed).eulerAngles;
+            partToRotate.rotation = Quaternion.Euler(0f, rotation.y, 0f);
+        }
 
-        if(fireCountdown<=0f)
+        if (target != null && fireCountdown<=0f)
         {
             Shoot();
             fireCountdown = 1f / fireRate;
@@ -76,8 +79,13 @@ public class Turret : MonoBehaviour
 
     void Shoot()
     {
-        Instantiate(bulletPrefab, firePoint.transform);
-        Instantiate(bulletPrefab, firePoint2.transform);
+        GameObject bulletGo = (GameObject)Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        //GameObject bulletGo2 = (GameObject)Instantiate(bulletPrefab, firePoint2.position, firePoint2.rotation);
+        Bullet bullet = bulletGo.GetComponent<Bullet>();
+        //Bullet bullet2 = bulletGo2.GetComponent<Bullet>();
+
+        if (bullet != null)
+            bullet.Seek(target);
     }
     void OnDrawGizmosSelected()
     {
