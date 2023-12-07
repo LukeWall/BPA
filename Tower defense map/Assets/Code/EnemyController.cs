@@ -3,10 +3,10 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     EnemyStats enemyStats;
-    
-    
-    
 
+
+    
+    
     private Transform target;
     
     public int wavepointIndex = 0;
@@ -15,7 +15,8 @@ public class EnemyController : MonoBehaviour
      void Start()
     {
         target = Waypoints.points[0];
-        
+        enemyStats = GetComponent<EnemyStats>();
+
     }
 
      void Update()

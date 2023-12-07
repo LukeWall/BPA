@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 63091799248358364}
   m_Layer: 0
   m_Name: Enemy1
-  m_TagString: EnemyLvl1
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -102,11 +102,11 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 5, y: 5, z: 5}
+  m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &9134529824449960455
 MonoBehaviour:
@@ -120,7 +120,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3514a9bb0bad93f499db00be6d654521, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyStats: {fileID: 0}
   wavepointIndex: 0
 --- !u!64 &1810272611060694033
 MeshCollider:
@@ -156,4 +155,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0fde410baa7e064db1e79be7a532ce8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level1Speed: 0
+  Speed: 200
+  Health: 20
+  lvl1Enemy: 0

@@ -227,8 +227,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4897693273423231980}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -186, y: -23, z: 885}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -12, z: 0}
   m_LocalScale: {x: 80, y: 80, z: 80}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -237,7 +237,7 @@ Transform:
   - {fileID: 8898739826139008554}
   - {fileID: 8440157327964135090}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4638979703831811615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -254,10 +254,9 @@ MonoBehaviour:
   fireRate: 1
   partToRotate: {fileID: 72412051504746059}
   turnSpeed: 10
-  bulletPrefab: {fileID: 3159028665075578104, guid: 7a6e1f97086322347b6a867b65565c2c,
+  bulletPrefab: {fileID: 7941566563111582718, guid: 63a4613dfffa14f4aa498b321a5e7577,
     type: 3}
-  firePoint: {fileID: 6851640644713911660}
-  firePoint2: {fileID: 3002053332655073204}
+  firePoint: {fileID: 8898739826139008554}
 --- !u!1 &4929819933727621158
 GameObject:
   m_ObjectHideFlags: 0

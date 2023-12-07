@@ -9,7 +9,12 @@ public class Bullet : MonoBehaviour
     GameManager gameManager;
     public float speed;
     public GameObject impactEffect;
-    
+
+    public void Start()
+    {
+        enemyStats = GetComponent<EnemyStats>();
+        gameManager = GetComponent<GameManager>();
+    }
     public void Seek(Transform _target)
     {
         target = _target;
@@ -43,15 +48,7 @@ public class Bullet : MonoBehaviour
             enemyStats.Health -= 10;
             GameObject effectIns = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
             Destroy(effectIns, 3f);
-            if(enemyStats.Health == 0)
-            {
-                Destroy(gameObject);
-                
-                if (tag == "Lvl1Enemy")
-                {
-                    gameManager.money += 15;
-                }
-            }
+            
             
 
         }
