@@ -8,6 +8,7 @@ public class Bullet : MonoBehaviour
     EnemyStats enemyStats;
     GameManager gameManager;
     public float speed;
+    public int damage = 50;
     public GameObject impactEffect;
 
     public void Start()
@@ -45,12 +46,20 @@ public class Bullet : MonoBehaviour
         void HitTarget()
         {
             Debug.Log("WE HIT SOMETHING");
-            enemyStats.Health -= 10;
+            Damage(target);
             GameObject effectIns = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
             Destroy(effectIns, 3f);
             
             
 
         }
+        void Damage (Transform enemy)
+        {
+            EnemyStats e = enemy.GetComponent<EnemyStats>();
+                e.TakeDamage(damage);
+            
+        
+        }
+
     }
 }

@@ -1,26 +1,48 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyStats : MonoBehaviour
 {
+    public float startHealth = 100;
+    public float startSpeed = 10f;
+    public int worth;
     public float Speed;
-    public float Health;
-    public bool lvl1Enemy;
+    private float health;
     GameManager gameManager;
+
+
+
+    public Image healthbar;
+    private bool isDead = false;
     // Start is called before the first frame update
     void Start()
     {
         gameManager = GetComponent<GameManager>();
+        Speed = startSpeed;
+        health = startHealth;
     }
 
     // Update is called once per frame
-    void Update()
+    public void TakeDamage(float amount)
     {
-        if (Health == 0)
+        health -= amount;
+
+        healthbar.fillAmount = health / startHealth;
+
+        if (health <= 0)
         {
-            Destroy(gameObject);
-            gameManager.money += 15;
+            Debug.Log("Die called");
+            Die();
         }
+    }
+
+    void Die()
+    {
+        
+        Destroy(gameObject);
+        Debug.Log("enemy Destroyed");
+        GameManager.money += worth;
     }
 }

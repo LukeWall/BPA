@@ -369,6 +369,7 @@
 "Assets/Code/Turret1.cs"
 "Assets/Code/Wavemanager.cs"
 "Assets/Code/Waypoints.cs"
+"Assets/MoneyUI.cs"
 "Assets/NODE.cs"
 "Assets/Turret.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
