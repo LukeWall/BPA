@@ -4,11 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 public class MoneyUI : MonoBehaviour
 {
-    GameManager gameManager;
+    PlayerStats playerStats;
     public Text moneyText;
     // Update is called once per frame
     void Update()
     {
-        moneyText.text = "$" + GameManager.money.ToString(); 
+        moneyText.text = "Money: " + PlayerStats.money.ToString(); 
     }
 }

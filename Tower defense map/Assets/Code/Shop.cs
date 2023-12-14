@@ -5,6 +5,7 @@ using UnityEngine;
 public class Shop : MonoBehaviour
 {
     public TurretBlueprint steamTurret;
+    public TurretBlueprint handForgedKatana;
 
     BuildManager buildManager;
 
@@ -17,5 +18,10 @@ public class Shop : MonoBehaviour
     {
         Debug.Log("Steam Turret selected");
         buildManager.SelectTurretToBuild(steamTurret);
+    }
+    public void SelectHandForgedKatana()
+    {
+        Debug.Log("HandForged Sword Selected");
+        buildManager.SelectTurretToBuild(handForgedKatana);
     }
 }

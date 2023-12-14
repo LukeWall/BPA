@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 
 public class NODE : MonoBehaviour
 {
-
+    
     public Color hoverColor;
     public Color notEnoughMoneyColor;
 
@@ -22,6 +22,7 @@ public class NODE : MonoBehaviour
     private Color startColor;
     
     BuildManager buildManager;
+    
      void Start()
     {
         rend = GetComponent<Renderer>();
@@ -30,7 +31,7 @@ public class NODE : MonoBehaviour
         buildManager = BuildManager.instance;
     }
 
-    public Vector3 GetBuildPosistion()
+    public Vector3 GetBuildPosition()
     {
         return transform.position + positionOffset;
     }
@@ -40,8 +41,10 @@ public class NODE : MonoBehaviour
             return;
         if (turret != null)
         {
+            Debug.Log("Node Selected");
             buildManager.SelectNode(this);
             return;
+            
         }
 
         if (!buildManager.CanBuild)
@@ -56,15 +59,19 @@ public class NODE : MonoBehaviour
             Debug.Log("Not enough money to build that");
             return;
         }
+        
+        
+            Debug.Log("Turret built");
+            GameObject _turret = (GameObject)Instantiate(blueprint.prefab, GetBuildPosition(), Quaternion.identity);
+            turret = _turret;
+            PlayerStats.money -= blueprint.cost;
 
-        PlayerStats.money -= blueprint.cost;
-
-        GameObject _turret = (GameObject)Instantiate(blueprint.prefab, GetBuildPosition(), Quaternion.identity);
-        turret = _turret;
+       
+        
 
         turretBlueprint = blueprint;
 
-        GameObject effect = (GameObject)Instantiate(buildManager.buildEffect, GetBuildPosistion(), Quaternion.identity);
+        GameObject effect = (GameObject)Instantiate(buildManager.buildEffect, GetBuildPosition(), Quaternion.identity);
         Destroy(effect, 5f);
 
         Debug.Log("Turret build!");
@@ -87,10 +94,28 @@ public class NODE : MonoBehaviour
 
         isUpgraded = true;
 
+        Debug.Log("Turret Upgraded");
+    }
+    public void SellTurret()
+    {
+        PlayerStats.money += turretBlueprint.GetSellAmount();
+
+        Destroy(turret);
+        turretBlueprint = null;
     }
     void OnMouseEnter()
     {
-        rend.material.color = hoverColor;
+        
+        if (!buildManager.CanBuild)
+            return;
+        if(buildManager.HasMoney)
+        {
+            rend.material.color = hoverColor;
+        }
+        else
+        {
+            rend.material.color = notEnoughMoneyColor;
+        }
     }
 
     void OnMouseExit()

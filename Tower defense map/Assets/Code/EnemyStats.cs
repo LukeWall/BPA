@@ -10,7 +10,7 @@ public class EnemyStats : MonoBehaviour
     public int worth;
     public float Speed;
     private float health;
-    GameManager gameManager;
+    PlayerStats playerStats;
 
 
 
@@ -19,7 +19,7 @@ public class EnemyStats : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        gameManager = GetComponent<GameManager>();
+        playerStats = GetComponent<PlayerStats>();
         Speed = startSpeed;
         health = startHealth;
     }
@@ -43,6 +43,6 @@ public class EnemyStats : MonoBehaviour
         
         Destroy(gameObject);
         Debug.Log("enemy Destroyed");
-        GameManager.money += worth;
+        PlayerStats.money += worth;
     }
 }

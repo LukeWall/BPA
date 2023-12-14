@@ -5,7 +5,7 @@ using UnityEngine;
 public class BuildManager : MonoBehaviour
 {
     public static BuildManager instance;
-
+    PlayerStats playerStats;
 
     void Awake()
     {
@@ -49,6 +49,7 @@ public class BuildManager : MonoBehaviour
     {
         turretToBuild = turret;
         DeselectNode();
+        Debug.Log("Turret selected");
     }
     public TurretBlueprint GetTurretToBuild()
     {

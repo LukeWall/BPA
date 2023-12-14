@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TurretBlueprint : MonoBehaviour
+[System.Serializable]
+public class TurretBlueprint
 {
     //Turret list for shop
 

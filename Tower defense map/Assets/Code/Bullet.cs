@@ -6,7 +6,7 @@ public class Bullet : MonoBehaviour
 {
     private Transform target;
     EnemyStats enemyStats;
-    GameManager gameManager;
+    PlayerStats playerStats;
     public float speed;
     public int damage = 50;
     public GameObject impactEffect;
@@ -14,7 +14,7 @@ public class Bullet : MonoBehaviour
     public void Start()
     {
         enemyStats = GetComponent<EnemyStats>();
-        gameManager = GetComponent<GameManager>();
+        playerStats = GetComponent<PlayerStats>();
     }
     public void Seek(Transform _target)
     {
