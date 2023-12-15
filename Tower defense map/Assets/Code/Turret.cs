@@ -18,12 +18,14 @@ public class Turret : MonoBehaviour
     public GameObject bulletPrefab;
     public Transform firePoint;
     //public Transform firePoint2;
-    
+
+    Turret1 turret1;
     
     // Start is called before the first frame update
     void Start()
     {
         InvokeRepeating("UpdateTarget", 0f, 0.5f);
+        turret1 = GetComponent<Turret1>();
     }
 
     void UpdateTarget()
@@ -83,9 +85,13 @@ public class Turret : MonoBehaviour
         //GameObject bulletGo2 = (GameObject)Instantiate(bulletPrefab, firePoint2.position, firePoint2.rotation);
         Bullet bullet = bulletGo.GetComponent<Bullet>();
         //Bullet bullet2 = bulletGo2.GetComponent<Bullet>();
-
+        
         if (bullet != null)
             bullet.Seek(target);
+        if (gameObject.tag == "Sword")
+        {
+            turret1.SwordSwing();
+        }
     }
     void OnDrawGizmosSelected()
     {
