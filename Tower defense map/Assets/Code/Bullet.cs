@@ -8,7 +8,7 @@ public class Bullet : MonoBehaviour
     EnemyStats enemyStats;
     PlayerStats playerStats;
     public float speed;
-    public int damage = 50;
+    public int damage;
     public GameObject impactEffect;
 
     public void Start()
@@ -56,9 +56,13 @@ public class Bullet : MonoBehaviour
         void Damage (Transform enemy)
         {
             EnemyStats e = enemy.GetComponent<EnemyStats>();
+
+            if (e != null)
+            {
                 e.TakeDamage(damage);
-            
-        
+            }
+
+            Destroy(gameObject);
         }
 
     }

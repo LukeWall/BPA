@@ -7,21 +7,23 @@ public class EnemyStats : MonoBehaviour
 {
     public float startHealth = 100;
     public float startSpeed = 10f;
-    public int worth;
-    public float Speed;
+    public int worth = 50;
+    private float Speed;
     private float health;
     PlayerStats playerStats;
-
-
+    
+    Bullet bullet;
 
     public Image healthbar;
     private bool isDead = false;
     // Start is called before the first frame update
     void Start()
     {
+        bullet = GetComponent<Bullet>();
         playerStats = GetComponent<PlayerStats>();
         Speed = startSpeed;
         health = startHealth;
+        
     }
 
     // Update is called once per frame

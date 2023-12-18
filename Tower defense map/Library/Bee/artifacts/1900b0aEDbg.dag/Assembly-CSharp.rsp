@@ -376,6 +376,7 @@
 "Assets/Code/TurretBlueprint.cs"
 "Assets/Code/Wavemanager.cs"
 "Assets/Code/Waypoints.cs"
+"Assets/SwordOffset.cs"
 "Assets/UI/coinsoverlay.cs"
 "Assets/Unity Stuff/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0

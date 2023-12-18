@@ -24,36 +24,41 @@ public class NODE : MonoBehaviour
     BuildManager buildManager;
     
      void Start()
-    {
+     {
         rend = GetComponent<Renderer>();
         startColor = rend.material.color;
 
         buildManager = BuildManager.instance;
-    }
+     }
+     void Update()
+     {
+        
+     }
+     public Vector3 GetBuildPosition()
+     {
+             return transform.position;
+         
+     }
+     void OnMouseDown()
+     {
+         if (EventSystem.current.IsPointerOverGameObject())
+             return;
+         if (turret != null)
+         {
+             Debug.Log("Node Selected");
+             buildManager.SelectNode(this);
+             return;
+             
+         } 
 
-    public Vector3 GetBuildPosition()
-    {
-        return transform.position + positionOffset;
-    }
-    void OnMouseDown()
-    {
-        if (EventSystem.current.IsPointerOverGameObject())
-            return;
-        if (turret != null)
-        {
-            Debug.Log("Node Selected");
-            buildManager.SelectNode(this);
-            return;
-            
-        }
-
-        if (!buildManager.CanBuild)
-            return;
+         if (!buildManager.CanBuild)
+             return;
 
         BuildTurret(buildManager.GetTurretToBuild());
-    }
-    void BuildTurret(TurretBlueprint blueprint)
-    {
+     }
+     void BuildTurret(TurretBlueprint blueprint)
+     {
+        
         if(PlayerStats.money < blueprint.cost)
         {
             Debug.Log("Not enough money to build that");
@@ -75,9 +80,9 @@ public class NODE : MonoBehaviour
         Destroy(effect, 5f);
 
         Debug.Log("Turret build!");
-    }
-    public void UpgradeTurret()
-    {
+     }
+     public void UpgradeTurret()
+     {
         if (PlayerStats.money < turretBlueprint.upgradeCost)
         {
             Debug.Log("Not enough money to upgrade");
@@ -95,14 +100,14 @@ public class NODE : MonoBehaviour
         isUpgraded = true;
 
         Debug.Log("Turret Upgraded");
-    }
-    public void SellTurret()
-    {
+     }
+     public void SellTurret()
+     {
         PlayerStats.money += turretBlueprint.GetSellAmount();
 
         Destroy(turret);
         turretBlueprint = null;
-    }
+     }
     void OnMouseEnter()
     {
         

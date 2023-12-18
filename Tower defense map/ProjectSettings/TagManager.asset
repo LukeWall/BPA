@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - enemy
   - EnemyLvl1
+  - Sword
   layers:
   - Default
   - TransparentFX

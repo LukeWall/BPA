@@ -22,7 +22,7 @@ public class EnemyController : MonoBehaviour
      void Update()
     {
         Vector3 dir = target.position - transform.position;
-        transform.Translate(dir.normalized  * enemyStats.Speed * Time.deltaTime, Space.World);
+        transform.Translate(dir.normalized  * enemyStats.startSpeed * Time.deltaTime, Space.World);
         if (Vector3.Distance(transform.position, target.position) <= 0.2f)
         {
             GetNextWaypoint();
