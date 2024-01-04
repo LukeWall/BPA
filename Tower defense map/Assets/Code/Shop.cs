@@ -6,6 +6,7 @@ public class Shop : MonoBehaviour
 {
     public TurretBlueprint steamTurret;
     public TurretBlueprint handForgedKatana;
+    public TurretBlueprint revolver;
 
     BuildManager buildManager;
 
@@ -23,5 +24,10 @@ public class Shop : MonoBehaviour
     {
         Debug.Log("HandForged Sword Selected");
         buildManager.SelectTurretToBuild(handForgedKatana);
+    }
+    public void SelectRevolver()
+    {
+        Debug.Log("Revolver Selected");
+        buildManager.SelectTurretToBuild(revolver);
     }
 }
