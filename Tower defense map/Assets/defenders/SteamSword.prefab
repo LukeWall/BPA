@@ -10,10 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5092351058085291891}
   - component: {fileID: 6360025964740211442}
-  - component: {fileID: -664504564398857252}
   m_Layer: 0
   m_Name: SteamSword
-  m_TagString: Sword
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 2685151364675786658}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -679.7, y: 44.4, z: -428}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -47,25 +46,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   range: 350
-  fireRate: 1
+  fireRate: 3
   partToRotate: {fileID: 5092351058085291891}
   turnSpeed: 20
   bulletPrefab: {fileID: 846634178937926646, guid: 85d1f479e7826bb4d86febbc34123a02,
     type: 3}
   firePoint: {fileID: 3685320343941201530}
---- !u!114 &-664504564398857252
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2685151364675786658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfd4efd0f512c6647b312a93228e09b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  swordOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &4871446968849883315
 GameObject:
   m_ObjectHideFlags: 0

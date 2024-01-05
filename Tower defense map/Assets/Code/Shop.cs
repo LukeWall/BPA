@@ -7,6 +7,7 @@ public class Shop : MonoBehaviour
     public TurretBlueprint steamTurret;
     public TurretBlueprint handForgedKatana;
     public TurretBlueprint revolver;
+    public TurretBlueprint teslaCoil;
 
     BuildManager buildManager;
 
@@ -29,5 +30,10 @@ public class Shop : MonoBehaviour
     {
         Debug.Log("Revolver Selected");
         buildManager.SelectTurretToBuild(revolver);
+    }
+    public void SelectTeslaCoil()
+    {
+        Debug.Log("TeslaCoil Selected");
+        buildManager.SelectTurretToBuild(teslaCoil);
     }
 }

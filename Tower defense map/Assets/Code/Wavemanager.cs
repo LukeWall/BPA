@@ -4,23 +4,25 @@ using System.Collections;
 
 public class WaveSpawner : MonoBehaviour
 {
+	PlayerStats playerStats;
+	WaveReward waveReward;
 	[System.Serializable]
 	public enum SpawnState { SPAWNING, WAITING, COUNTING };
 
 	[System.Serializable]
 	public class Wave
 	{
-		public string name; 
+		public string name;
 		public UnityEvent OnWaveEnd;
 		[SerializeField] public EnemyController[] enemies;
-		[SerializeField]public int count;
-		[SerializeField]public float rate;
+		[SerializeField] public int count;
+		[SerializeField] public float rate;
 		public bool shouldWaitWaveClear = true;
 	}
 
 	public Wave[] waves;
 	private int nextWave = 0;
-	private int currentWave = 0;
+	public int currentWave = 0;
 
 	public int NextWave
 	{
@@ -30,7 +32,8 @@ public class WaveSpawner : MonoBehaviour
 	public GameObject spawnPoints;
 	public float timeBetweenWaves = 5f;
 	public UnityEvent OnWaveEnd;
-	
+
+
 	private float waveCountdown;
 	public float WaveCountdown
 	{
@@ -47,7 +50,7 @@ public class WaveSpawner : MonoBehaviour
 
 	void Start()
 	{
-	
+
 		waveCountdown = timeBetweenWaves;
 	}
 
@@ -114,7 +117,7 @@ public class WaveSpawner : MonoBehaviour
 			}
 		}
 		return true;
-		
+
 	}
 
 	IEnumerator SpawnWave(Wave _wave)
@@ -133,4 +136,5 @@ public class WaveSpawner : MonoBehaviour
 
 		yield break;
 	}
+	
 }

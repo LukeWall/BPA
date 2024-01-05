@@ -379,9 +379,10 @@
 "Assets/Code/Turret1.cs"
 "Assets/Code/TurretBlueprint.cs"
 "Assets/Code/Wavemanager.cs"
+"Assets/Code/WaveReward.cs"
 "Assets/Code/Waypoints.cs"
+"Assets/enemies/True_Horror_Creatures/Horror_creature6_v1.0/Script/THC6_ctrl.cs"
 "Assets/SwordOffset.cs"
-"Assets/True_Horror_Creatures/Horror_creature6_v1.0/Script/THC6_ctrl.cs"
 "Assets/UI/coinsoverlay.cs"
 "Assets/Unity Stuff/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0

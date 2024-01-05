@@ -85,17 +85,14 @@ public class Turret : MonoBehaviour
         //GameObject bulletGo2 = (GameObject)Instantiate(bulletPrefab, firePoint2.position, firePoint2.rotation);
         Bullet bullet = bulletGo.GetComponent<Bullet>();
         //Bullet bullet2 = bulletGo2.GetComponent<Bullet>();
-        
+
         if (bullet != null)
             bullet.Seek(target);
-        if (gameObject.tag == "Sword")
-        {
-            turret1.SwordSwing();
-        }
-    }
+    }   
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, range);
     }
 }
+
