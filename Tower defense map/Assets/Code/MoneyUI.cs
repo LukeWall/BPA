@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class MoneyUI : MonoBehaviour
 {
-    PlayerStats playerStats;
+    
     public Text moneyText;
     // Update is called once per frame
     void Update()

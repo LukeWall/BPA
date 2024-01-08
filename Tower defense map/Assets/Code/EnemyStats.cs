@@ -5,11 +5,13 @@ using UnityEngine.UI;
 
 public class EnemyStats : MonoBehaviour
 {
+    public static int startLiveDamage = 1;
     public float startHealth = 100;
     public float startSpeed = 10f;
     public int worth = 50;
     public static float Speed;
     public static float health;
+    public static int livesDamage;
     PlayerStats playerStats;
     
     Bullet bullet;
@@ -23,7 +25,7 @@ public class EnemyStats : MonoBehaviour
         playerStats = GetComponent<PlayerStats>();
         Speed = startSpeed;
         health = startHealth;
-        
+        livesDamage = startLiveDamage;
     }
 
     // Update is called once per frame
@@ -46,5 +48,6 @@ public class EnemyStats : MonoBehaviour
         Destroy(gameObject);
         Debug.Log("enemy Destroyed");
         PlayerStats.money += worth;
+        WaveSpawner.EnemiesAlive--;
     }
 }

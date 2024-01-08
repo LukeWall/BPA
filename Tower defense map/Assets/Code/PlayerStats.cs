@@ -8,8 +8,7 @@ public class PlayerStats : MonoBehaviour
     public int startMoney = 250;
     
     public static int Lives;
-    public int startLives = 50;
-
+    public int startLives;
     public static int Rounds;
 
     WaveSpawner waveSpawner;

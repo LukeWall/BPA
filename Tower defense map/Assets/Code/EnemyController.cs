@@ -37,10 +37,20 @@ public class EnemyController : MonoBehaviour
     {
         if(wavepointIndex >= Waypoints.points.Length - 1)
         {
-            Destroy(gameObject);
+            PlayerStats.Lives -= EnemyStats.startLiveDamage;
+            EndPath();
             return;
         }
         wavepointIndex++;
         target = Waypoints.points[wavepointIndex]; 
+    }
+   
+    public void EndPath()
+    {
+        
+        WaveSpawner.EnemiesAlive--;
+        Destroy(gameObject);
+
+        
     }
 }

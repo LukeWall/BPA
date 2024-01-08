@@ -4,6 +4,7 @@ using System.Collections;
 
 public class WaveSpawner : MonoBehaviour
 {
+	public static float EnemiesAlive = 0;
 	PlayerStats playerStats;
 	WaveReward waveReward;
 	[System.Serializable]
@@ -15,7 +16,7 @@ public class WaveSpawner : MonoBehaviour
 		public string name;
 		public UnityEvent OnWaveEnd;
 		[SerializeField] public EnemyController[] enemies;
-		[SerializeField] public int count;
+		[SerializeField] public static int count;
 		[SerializeField] public float rate;
 		public bool shouldWaitWaveClear = true;
 	}
@@ -127,9 +128,12 @@ public class WaveSpawner : MonoBehaviour
 
 		state = SpawnState.SPAWNING;
 
+		EnemiesAlive = Wave.count;
+
 		for (int i = 0; i < waves[currentWave].enemies.Length; i++)
 		{
 			Instantiate(waves[currentWave].enemies[i], spawnPoints.transform);
+			EnemiesAlive++;
 			yield return new WaitForSeconds(1f / _wave.rate);
 		}
 
