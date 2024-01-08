@@ -22,7 +22,7 @@ public class WaveSpawner : MonoBehaviour
 
 	public Wave[] waves;
 	private int nextWave = 0;
-	public int currentWave = 0;
+	public static int currentWave = 0;
 
 	public int NextWave
 	{
@@ -47,10 +47,10 @@ public class WaveSpawner : MonoBehaviour
 	{
 		get { return state; }
 	}
-
-	void Start()
+    
+    void Start()
 	{
-
+		OnWaveEnd.AddListener(WaveReward.GiveWaveReward);
 		waveCountdown = timeBetweenWaves;
 	}
 
@@ -97,6 +97,7 @@ public class WaveSpawner : MonoBehaviour
 			OnWaveEnd.Invoke();
 			Debug.Log("ALL WAVES COMPLETE! Looping...");
 			this.enabled = false;
+			PlayerStats.Rounds++;
 		}
 		else
 		{

@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 
 public class NODE : MonoBehaviour
 {
-    
+    PlayerStats playerStats;
     public Color hoverColor;
     public Color notEnoughMoneyColor;
 
@@ -78,7 +78,7 @@ public class NODE : MonoBehaviour
 
         GameObject effect = (GameObject)Instantiate(buildManager.buildEffect, GetBuildPosition(), Quaternion.identity);
         Destroy(effect, 5f);
-
+        TotalStats.turretsBuilt++;
         Debug.Log("Turret build!");
      }
      public void UpgradeTurret()
@@ -98,7 +98,7 @@ public class NODE : MonoBehaviour
         turret = _turret;
 
         isUpgraded = true;
-
+        TotalStats.turretsUpgraded++;
         Debug.Log("Turret Upgraded");
      }
      public void SellTurret()

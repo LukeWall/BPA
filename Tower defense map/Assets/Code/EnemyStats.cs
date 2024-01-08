@@ -8,8 +8,8 @@ public class EnemyStats : MonoBehaviour
     public float startHealth = 100;
     public float startSpeed = 10f;
     public int worth = 50;
-    private float Speed;
-    private float health;
+    public static float Speed;
+    public static float health;
     PlayerStats playerStats;
     
     Bullet bullet;
@@ -42,7 +42,7 @@ public class EnemyStats : MonoBehaviour
 
     void Die()
     {
-        
+        TotalStats.enemiesKilled++;
         Destroy(gameObject);
         Debug.Log("enemy Destroyed");
         PlayerStats.money += worth;

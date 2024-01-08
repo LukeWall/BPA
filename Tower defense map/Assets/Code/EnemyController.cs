@@ -23,7 +23,7 @@ public class EnemyController : MonoBehaviour
     {
         Vector3 dir = target.position - transform.position;
         Quaternion rot = target.rotation;
-        transform.Translate(dir.normalized  * enemyStats.startSpeed * Time.deltaTime, Space.World);
+        transform.Translate(dir.normalized  * EnemyStats.Speed * Time.deltaTime, Space.World);
         transform.LookAt(target);
         if (Vector3.Distance(transform.position, target.position) <= 0.2f)
         {
@@ -38,7 +38,7 @@ public class EnemyController : MonoBehaviour
         if(wavepointIndex >= Waypoints.points.Length - 1)
         {
             Destroy(gameObject);
-           
+            return;
         }
         wavepointIndex++;
         target = Waypoints.points[wavepointIndex]; 

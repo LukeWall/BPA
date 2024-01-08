@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
-    public int money;
+    public static int money;
     public int startMoney = 250;
-    public int waveReward;
+    
     public static int Lives;
     public int startLives = 50;
 
