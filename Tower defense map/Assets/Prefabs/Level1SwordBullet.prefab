@@ -97,5 +97,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 700
-  damage: 30
+  damage: 40
   impactEffect: {fileID: 0}
