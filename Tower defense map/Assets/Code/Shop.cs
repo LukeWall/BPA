@@ -8,9 +8,10 @@ public class Shop : MonoBehaviour
     public TurretBlueprint handForgedKatana;
     public TurretBlueprint revolver;
     public TurretBlueprint teslaCoil;
+    public TurretBlueprint bombTower;
 
     BuildManager buildManager;
-
+    //this script controls player input for the shop and sends the users selection to the build manager script
     void Start()
     {
         buildManager = BuildManager.instance;
@@ -35,5 +36,10 @@ public class Shop : MonoBehaviour
     {
         Debug.Log("TeslaCoil Selected");
         buildManager.SelectTurretToBuild(teslaCoil);
+    }
+    public void SelectBombTower()
+    {
+        Debug.Log("Bombtower Selected");
+        buildManager.SelectTurretToBuild(bombTower);
     }
 }

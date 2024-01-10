@@ -7,6 +7,7 @@ public class WaveSpawner : MonoBehaviour
 	public static float EnemiesAlive = 0;
 	PlayerStats playerStats;
 	WaveReward waveReward;
+	Gamemanager gamemanager;
 	[System.Serializable]
 	public enum SpawnState { SPAWNING, WAITING, COUNTING };
 
@@ -63,6 +64,7 @@ public class WaveSpawner : MonoBehaviour
 			if (!EnemyIsAlive() || !waves[currentWave].shouldWaitWaveClear)
 			{
 				WaveCompleted(waves[currentWave]);
+
 			}
 			else
 			{
@@ -83,25 +85,28 @@ public class WaveSpawner : MonoBehaviour
 		}
 	}
 
-	void WaveCompleted(Wave _wave)
+	public void WaveCompleted(Wave _wave)
 	{
 		Debug.Log("Wave Completed!");
 
 		_wave.OnWaveEnd.Invoke();
+		OnWaveEnd.Invoke();
 
 		state = SpawnState.COUNTING;
 		waveCountdown = timeBetweenWaves;
 
-		if (nextWave + 1 > waves.Length - 1)
+		if (nextWave + 1 > waves.Length)
 		{
 
 			OnWaveEnd.Invoke();
 			Debug.Log("ALL WAVES COMPLETE! Looping...");
 			this.enabled = false;
 			PlayerStats.Rounds++;
+			gamemanager.EndGameWin();
 		}
 		else
 		{
+
 			nextWave++;
 			currentWave++;
 		}

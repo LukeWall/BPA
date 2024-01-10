@@ -38,21 +38,21 @@ public class BuildManager : MonoBehaviour
          turretToBuild = null;
 
                nodeUI.SetTarget(node);
-               
+               //finds if a node is selected
     }           
     public void DeselectNode()
-    {
+    {//deselects node when called 
                 selectedNode = null;
                 nodeUI.Hide();
     }
     public void SelectTurretToBuild (TurretBlueprint turret)
-    {
+    {//player turret selection
         turretToBuild = turret;
         DeselectNode();
         Debug.Log("Turret selected");
     }
     public TurretBlueprint GetTurretToBuild()
-    {
+    {//gets build program the turret selection
         return turretToBuild;
     }
 }

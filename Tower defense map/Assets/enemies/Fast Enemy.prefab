@@ -1906,11 +1906,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0fde410baa7e064db1e79be7a532ce8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startLiveDamage: 2
-  startHealth: 100
-  startSpeed: 30
-  worth: 150
-  healthbar: {fileID: 0}
+  startHealth: 150
+  startSpeed: 400
+  worth: 100
+  healthbar: {fileID: 825555927727206273, guid: d0b18338a1b9fbb47b234e15611beb25,
+    type: 3}
 --- !u!1 &7896452455505548450
 GameObject:
   m_ObjectHideFlags: 0

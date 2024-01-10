@@ -369,6 +369,8 @@
 "Assets/Code/EnemiesKilled - Copy.cs"
 "Assets/Code/EnemyController.cs"
 "Assets/Code/EnemyStats.cs"
+"Assets/Code/Gamemanager.cs"
+"Assets/Code/GameOver.cs"
 "Assets/Code/MainMenu.cs"
 "Assets/Code/Matt/_ID_generator_.cs"
 "Assets/Code/Matt/_player_profile_.cs"
@@ -393,6 +395,7 @@
 "Assets/EnemyLeft.cs"
 "Assets/LiveCounter.cs"
 "Assets/SwordOffset.cs"
+"Assets/Travis Game Assets/Hit Impact Effects/Demo Scene/Scripts/HitImpactEffectsPreview.cs"
 "Assets/UI/coinsoverlay.cs"
 "Assets/Unity Stuff/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0

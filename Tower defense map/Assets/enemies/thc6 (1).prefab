@@ -142,8 +142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0fde410baa7e064db1e79be7a532ce8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startLiveDamage: 10
-  startHealth: 100
+  startHealth: 400
   startSpeed: 40
   worth: 50
   healthbar: {fileID: 5712759511174744387, guid: cac63fd737a70d34abeff689a5fc8685,
