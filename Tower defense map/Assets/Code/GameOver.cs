@@ -11,8 +11,7 @@ public class GameOver : MonoBehaviour
     public void Menu()
     {
         SceneManager.LoadScene(menuScenename);
-        Gamemanager.gameOverLoseUI.SetActive(false);
-        Gamemanager.gameOverWinUI.SetActive(false);
+        
     }
 
     

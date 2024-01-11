@@ -6,9 +6,9 @@ public class EnemyLeft : MonoBehaviour
 {
     //UI for Enemies Left Counter
     public Text enemyCount;
+    WaveSpawner waveSpawner;
     void Update()
     {
-       if(WaveSpawner.EnemiesAlive>0)
         enemyCount.text = WaveSpawner.EnemiesAlive.ToString();
     }
 

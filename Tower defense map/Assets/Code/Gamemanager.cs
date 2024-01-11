@@ -6,14 +6,15 @@ public class Gamemanager : MonoBehaviour
 {
     public static bool GameIsOver = false;
     public Gamemanager gamemanager;
-    public static GameObject gameOverLoseUI;
-    public static GameObject gameOverWinUI;
-    public int maxWaves = 1;
+    public GameObject gameOverLoseUI;
+    public GameObject gameOverWinUI;
+    public int maxWaves = 2;
+    public int currentWave;
+    
     // Start is called before the first frame update
     void Start()
     {
-        gameOverWinUI.SetActive(false);
-        gameOverLoseUI.SetActive(false);
+        
         GameIsOver = false;
     }
 
@@ -21,7 +22,7 @@ public class Gamemanager : MonoBehaviour
     void Update()
     {
         
-        if(GameIsOver)
+        if(GameIsOver==true)
         {
             return;
         }
@@ -29,20 +30,25 @@ public class Gamemanager : MonoBehaviour
         {
             EndGameLose();
         }
-        else if(WaveSpawner.currentWave==maxWaves)
-        {
-            EndGameWin();
-        }
+        
 
     }
-    void EndGameLose()
+    public void EndGameLose()
     {
         GameIsOver = true;
         gameOverLoseUI.SetActive(true);
+        return;
     }
     public void EndGameWin()
     {
-        GameIsOver = true;
+        if(currentWave==maxWaves)
+            GameIsOver = true;
         gameOverWinUI.SetActive(true);
+        return;
+    }
+    public void WaveCompleted()
+    {
+        currentWave += 1;
+        return;
     }
 }

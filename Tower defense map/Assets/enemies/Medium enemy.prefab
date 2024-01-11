@@ -352,7 +352,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startLiveDamage: 3
   startHealth: 180
-  startSpeed: 150
+  startSpeed: 200
   worth: 80
   healthbar: {fileID: 2583671360276366606}
 --- !u!1 &1181045230853615107

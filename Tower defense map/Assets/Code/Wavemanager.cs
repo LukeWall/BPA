@@ -49,11 +49,12 @@ public class WaveSpawner : MonoBehaviour
 	{
 		get { return state; }
 	}
-    
-    void Start()
+
+	void Start()
 	{
 		OnWaveEnd.AddListener(WaveReward.GiveWaveReward);
 		waveCountdown = timeBetweenWaves;
+		currentWave = 0;
 	}
 
 	void Update()
@@ -76,6 +77,7 @@ public class WaveSpawner : MonoBehaviour
 		{
 			if (state != SpawnState.SPAWNING)
 			{
+				
 				StartCoroutine(SpawnWave(waves[nextWave]));
 			}
 		}
@@ -91,18 +93,17 @@ public class WaveSpawner : MonoBehaviour
 
 		_wave.OnWaveEnd.Invoke();
 		OnWaveEnd.Invoke();
-
+		PlayerStats.Rounds++;
 		state = SpawnState.COUNTING;
 		waveCountdown = timeBetweenWaves;
-
-		if (nextWave + 1 > waves.Length)
+		
+		if (nextWave + 1 > waves.Length - 1)
 		{
 
 			OnWaveEnd.Invoke();
 			Debug.Log("ALL WAVES COMPLETE! Looping...");
 			this.enabled = false;
-			PlayerStats.Rounds++;
-			gamemanager.EndGameWin();
+
 		}
 		else
 		{
@@ -133,7 +134,7 @@ public class WaveSpawner : MonoBehaviour
 
 		state = SpawnState.SPAWNING;
 
-		EnemiesAlive = Wave.count;
+		
 
 		for (int i = 0; i < waves[currentWave].enemies.Length; i++)
 		{
@@ -146,5 +147,4 @@ public class WaveSpawner : MonoBehaviour
 
 		yield break;
 	}
-	
 }

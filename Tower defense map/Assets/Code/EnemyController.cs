@@ -37,7 +37,7 @@ public class EnemyController : MonoBehaviour
     {
         if(wavepointIndex >= Waypoints.points.Length - 1)
         {
-            PlayerStats.Lives -= EnemyStats.startLiveDamage;
+            PlayerStats.Lives -= EnemyStats.livesDamage;
             EndPath();
             return;
         }
