@@ -12,6 +12,10 @@ public class Manager : MonoBehaviour, _saveable_
     [SerializeField] private float _y_position_ = 0; *Example
     [SerializeField] private float _z_position_ = 0; *Example
     */
+    [SerializeField] private int _player_money_ = PlayerStats.money;
+    [SerializeField] private int _player_lives_ = PlayerStats.Lives;
+    [SerializeField] private int _player_rounds_ = PlayerStats.Rounds;
+
     // captures the state of the project
     public object _capture_state_()
     {
@@ -22,6 +26,9 @@ public class Manager : MonoBehaviour, _saveable_
             _y_position_ = _y_position_, *Example
             _z_position_ = _z_position_ *Example
             */
+            _player_money_ = _player_money_,
+            _player_lives_ = _player_lives_,
+            _player_rounds_ = _player_rounds_
         };
     }
     // Restores the state of the project
@@ -33,6 +40,9 @@ public class Manager : MonoBehaviour, _saveable_
         _y_position_ = _savedata_._y_position_; *Example
         _z_position_ = _savedata_._z_position_; *Example
         */
+         _player_money_ = _savedata_._player_money_;
+        _player_lives_ = _savedata_._player_lives_;
+        _player_rounds_ = _savedata_._player_rounds_;
     }
 
     // Sets up the the save data to be used throughout the program
@@ -44,5 +54,8 @@ public class Manager : MonoBehaviour, _saveable_
         public float _y_position_; *Example
         public float _z_position_; *Example
         */
+        public int _player_money_;
+        public int _player_lives_;
+        public int _player_rounds_;
     }
 }
