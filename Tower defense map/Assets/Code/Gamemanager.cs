@@ -8,17 +8,17 @@ public class Gamemanager : MonoBehaviour
     public Gamemanager gamemanager;
     public GameObject gameOverLoseUI;
     public GameObject gameOverWinUI;
-    public int maxWaves = 2;
-    public int currentWave;
+    public int maxWaves = 31;
+    public static int currentWave;
     
-    // Start is called before the first frame update
+    
     void Start()
     {
         
         GameIsOver = false;
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
         
@@ -29,7 +29,7 @@ public class Gamemanager : MonoBehaviour
         if (PlayerStats.Lives <= 0)
         {
             EndGameLose();
-        }
+        }//if player has no lives remaining calls a method
         
 
     }
@@ -38,17 +38,17 @@ public class Gamemanager : MonoBehaviour
         GameIsOver = true;
         gameOverLoseUI.SetActive(true);
         return;
-    }
+    }//when method is called sets the LoseAI as active
     public void EndGameWin()
     {
         if(currentWave==maxWaves)
             GameIsOver = true;
         gameOverWinUI.SetActive(true);
         return;
-    }
+    }//when method is called sets WinUI as active
     public void WaveCompleted()
     {
         currentWave += 1;
         return;
-    }
+    }//when wave is completed adds 1 to the current wave count
 }
